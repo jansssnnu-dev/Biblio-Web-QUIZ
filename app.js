@@ -209,8 +209,7 @@ function result(id) {
     </div>
     <h3 class="sec">เล่มใกล้เคียงที่อาจถูกใจ</h3>
     <div class="mini-list">${nb}</div>
-    ${list.length ? BACK_BTN : ''}<button class="btn back" onclick="location.hash='';s=0;a=[];p=0;list=[];step()">ทำควิซอีกครั้ง</button>`;
-  window.scrollTo && window.scrollTo(0, 0);
+    ${list.length ? BACK_BTN : ''}<button class="btn again" onclick="location.hash='';s=0;a=[];p=0;list=[];step()">ทำควิซอีกครั้ง</button>`;  window.scrollTo && window.scrollTo(0, 0);
 }
 
 function noCover(img) {
